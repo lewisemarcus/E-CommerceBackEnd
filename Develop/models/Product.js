@@ -4,6 +4,8 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const Category = require('./Category');
 
+
+
 // Initialize Product model (table) by extending off Sequelize's Model class
 class Product extends Model { }
 
@@ -27,8 +29,7 @@ Product.init(
     },
     stock: {
       type: DataTypes.INTEGER,
-      allowNull: false,
-      validate: { isInt: true },
+      allowNull: false,      validate: { isInt: true },
       defaultValue: 10
     },
     category_id: {
@@ -48,4 +49,7 @@ Product.init(
   }
 );
 Category.hasMany(Product)
+Product.belongsTo(Category)
+
+
 module.exports = Product;

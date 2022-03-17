@@ -68,7 +68,7 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
   ## Walkthrough
 
-  Here is a link to a video going over the steps to use the application: [E-Commerce Back End Demo](https://www.youtube.com/watch?v=VRJiK-kdDb4)
+  Here is a link to a video going over the steps to use the application: [E-Commerce Back End Demo](https://youtu.be/aogjGsq8_2Y)
 
   ## Usage
   
